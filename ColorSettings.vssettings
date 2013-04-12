@@ -8,15 +8,15 @@
 			<PropertyValue name="Version">2</PropertyValue>
 			<FontsAndColors Version="2.0">
 				<Categories>
-					<Category GUID="{58E96763-1D3B-4E05-B6BA-FF7115FD0B7B}" FontName="Source Code Pro" FontSize="9" CharSet="1" FontIsDefault="No">
+					<Category GUID="{58E96763-1D3B-4E05-B6BA-FF7115FD0B7B}" FontName="Source Code Pro" FontSize="10" CharSet="1" FontIsDefault="No">
 						<Items>
 							<Item Name="Plain Text" Foreground="0x00C8D7D7" Background="0x003F3F3F" BoldFont="No"/>
 							<Item Name="Selected Text" Foreground="0x02000000" Background="0x00B4D371" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x00DBCDBF" BoldFont="No"/>
-							<Item Name="Indicator Margin" Foreground="0x02000000" Background="0x00F0F0F0" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x00CAE09C" BoldFont="No"/>
+							<Item Name="Indicator Margin" Foreground="0x02000000" Background="0x007F7F7F" BoldFont="No"/>
 						</Items>
 					</Category>
-					<Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontName="Source Code Pro" FontSize="9" CharSet="1" FontIsDefault="No">
+					<Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontName="Source Code Pro" FontSize="10" CharSet="1" FontIsDefault="No">
 						<Items>
 							<Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="0x02000000" Background="0x0044493C" BoldFont="No"/>
 							<Item Name="XML Doc Comment" Foreground="0x007D9B7D" Background="0x02000000" BoldFont="No"/>
@@ -33,8 +33,9 @@
 							<Item Name="outlining.verticalrule" Foreground="0x00A5A5A5" Background="0x02000000" BoldFont="No"/>
 							<Item Name="outlining.square" Foreground="0x00808080" Background="0x00D6D7D7" BoldFont="No"/>
 							<Item Name="urlformat" Foreground="0x00A3A3DC" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Line Number" Foreground="0x00C8D7D7" Background="0x01000001" BoldFont="No"/>
 							<Item Name="Selected Text" Foreground="0x02000000" Background="0x00B4D371" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x00DBCDBF" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x00CAE09C" BoldFont="No"/>
 							<Item Name="CSS Keyword" Foreground="0x007D9B7D" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Comment" Foreground="0x007D9B7D" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Selector" Foreground="0x0081D0D0" Background="0x02000000" BoldFont="No"/>
@@ -50,10 +51,10 @@
 							<Item Name="HTML Server-Side Script" Foreground="0x0081D0D0" Background="0x02000000" BoldFont="No"/>
 							<Item Name="HTML Tag Delimiter" Foreground="0x00AFEFEF" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Razor Code" Foreground="0x02000000" Background="0x00363636" BoldFont="No"/>
-							<Item Name="vsvim_blockcaret" Foreground="0x009FB38F" Background="0x00000000" BoldFont="No"/>
 							<Item Name="data.tools.diff.remove.line" Foreground="0x01000000" Background="0x006CCE00" BoldFont="No"/>
 							<Item Name="data.tools.diff.remove.word" Foreground="0x01000000" Background="0x00539D00" BoldFont="No"/>
 							<Item Name="data.tools.diff.add.word" Foreground="0x01000000" Background="0x005B5BFF" BoldFont="No"/>
+							<Item Name="vsvim_blockcaret" Foreground="0x009FB38F" Background="0x00000000" BoldFont="No"/>
 						</Items>
 					</Category>
 					<Category GUID="{B36B0228-DBAD-4DB0-B9C7-2AD3E572010F}" FontName="Segoe UI" FontSize="9" CharSet="1" FontIsDefault="No">
@@ -70,7 +71,7 @@
 					<Category GUID="{C1614BB1-734F-4A31-BD42-5AE6275E16D2}" FontName="Source Code Pro" FontSize="9" CharSet="1" FontIsDefault="No">
 						<Items/>
 					</Category>
-					<Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontName="Source Code Pro" FontSize="9" CharSet="1" FontIsDefault="No">
+					<Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontName="Source Code Pro" FontSize="10" CharSet="1" FontIsDefault="No">
 						<Items>
 							<Item Name="Keyword" Foreground="0x00A5C6DA" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="Comment" Foreground="0x007D9B7D" Background="0x02000000" BoldFont="No"/>
@@ -109,27 +110,15 @@
 							<Item Name="XML Attribute Quotes" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 						</Items>
 					</Category>
-					<Category GUID="{FF349800-EA43-46C1-8C98-878E78F46501}" FontName="Source Code Pro" FontSize="9" CharSet="1" FontIsDefault="No">
+					<Category GUID="{FF349800-EA43-46C1-8C98-878E78F46501}" FontName="Source Code Pro" FontSize="10" CharSet="1" FontIsDefault="No">
 						<Items>
+							<Item Name="Read-Only Region" Background="0x00B4D371" BoldFont="No"/>
 							<Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="0x0030332E" BoldFont="No"/>
+							<Item Name="Refactoring Background" Background="0x003F3F3F" BoldFont="No"/>
 						</Items>
 					</Category>
 				</Categories>
 			</FontsAndColors>
 		</Category>
-	</Category>
-	<Category name="PowerCommands_Commands" Category="{7a9e9816-5add-4cbd-9c46-1901a492640d}" Package="{24e33dbf-cadf-4da8-acfe-566366fc8468}" RegisteredName="PowerCommands_Commands" PackageName="Microsoft.PowerCommands.PowerCommandsPackage, PowerCommands, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-		<PropertyValue name="DisabledCommands"/>
-	</Category>
-	<Category name="PowerCommands_General" Category="{df0d89f1-c9a3-47bf-b277-42e0c178f1a0}" Package="{24e33dbf-cadf-4da8-acfe-566366fc8468}" RegisteredName="PowerCommands_General" PackageName="Microsoft.PowerCommands.PowerCommandsPackage, PowerCommands, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-		<PropertyValue name="FormatOnSave">False</PropertyValue>
-		<PropertyValue name="RemoveAndSortUsingsOnSave">False</PropertyValue>
-	</Category>
-	<Category name="Productivity Power Tools_PowerCommands: Commands" Category="{7a9e9816-5add-4cbd-9c46-1901a492640d}" Package="{24e33dbf-cadf-4da8-acfe-566366fc8468}" RegisteredName="Productivity Power Tools_PowerCommands: Commands" PackageName="Microsoft.PowerCommands.PowerCommandsPackage, PowerCommands, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-		<PropertyValue name="DisabledCommands"/>
-	</Category>
-	<Category name="Productivity Power Tools_PowerCommands: General" Category="{df0d89f1-c9a3-47bf-b277-42e0c178f1a0}" Package="{24e33dbf-cadf-4da8-acfe-566366fc8468}" RegisteredName="Productivity Power Tools_PowerCommands: General" PackageName="Microsoft.PowerCommands.PowerCommandsPackage, PowerCommands, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-		<PropertyValue name="FormatOnSave">False</PropertyValue>
-		<PropertyValue name="RemoveAndSortUsingsOnSave">False</PropertyValue>
 	</Category>
 </UserSettings>
